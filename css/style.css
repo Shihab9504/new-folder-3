@@ -1,0 +1,207 @@
+/* Universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+
+section{
+    text-align: center;
+    padding: 75px 0px;
+}
+
+
+.underline{
+    border: 2px solid;
+    width: 12%; 
+    margin: auto;
+    color: #41495c;
+}
+
+[class*="col"] {
+    float: left;
+}
+/* Col section */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+/* header part */
+header{
+    background-color: #87509c; 
+}
+header li{
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+header li a{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+header li a:hover{
+    background-color:#594363;
+    
+}
+.hero-part{
+    font-size: 15px;
+    color: white;
+}
+header button{
+    color: white;
+    background-color: #eb7d4b;
+    text-align: center;
+}
+
+header button:hover{
+    background-color: #c56c43;
+
+
+}
+.btn{
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
+
+
+/* Services part */
+#services{
+    background-color: #17c2a4;
+    color: white;
+}
+
+
+
+/* Team part */
+#team{
+    background-color: #e7f1f8;
+    color: #3c4761;
+}
+
+.team-icon-box i{
+    font-size: 20px;
+    background-color: #bdd1df;
+    color: white;
+    border-radius: 50%;
+    width: 45px;
+    padding: 12px;
+} 
+.team-icon-box i:hover{
+    background-color: #435461;
+}
+
+
+/* skilis part */
+#skilis{
+    background-color: #ffffff;
+    color: #5c667c;
+}
+
+
+/* portfolio part */
+.height{
+    width: 50%;
+}
+
+
+
+#portfolio{
+background-color: #ffdd99;
+}
+#portfolio li{
+text-align: center;
+display: inline-block;
+text-transform: uppercase;
+font-size: 20px;
+margin:10px 0px;
+}
+
+#portfolio li a{
+    text-decoration: none;
+    color: #514c43;
+    border-radius:5px;
+    padding:5px;
+    background-color: #ebc985;
+}
+#portfolio li a:hover{
+    background-color: #ffffff;
+
+}
+#portfolio button{
+    background-color: #17c2a4;
+    color: white;
+}
+
+#portfolio button:hover{
+    background-color: #24a58d;
+}
+/* about part */
+#about{
+    background-color: #d74680;
+    color: white;
+}
+.sub-line{
+    color: #ffdd99;
+}
+#contact{
+    background-color: #3c5499;
+    color: white;
+}
+
+input{
+    background-color: #273a71;
+}
+#contact button{
+background-color: #30bae7;
+color: white;
+}
+#contact button:hover{
+    background-color: #2e9dc2;
+}
+
+/* footer part */
+footer{
+    background-color: #344b8e;
+}
+footer li{
+    display: inline-block;
+    text-align: center;
+}
+footer li a{
+    text-decoration: none;
+    padding: 1px;
+    color: white;
+    
+}
+footer li a:hover{
+color: #30addd;
+}
+.menu-1{
+    text-align: center;
+}

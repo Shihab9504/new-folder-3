@@ -1,0 +1,6 @@
+/* laptop device */
+@media (min-width: 993) and (max-width: 1200) {
+    header {
+        background-color: coral;
+    }
+}

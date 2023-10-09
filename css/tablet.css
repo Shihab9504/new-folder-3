@@ -1,0 +1,6 @@
+/* tablet device */
+@media (min-width: 601px) and (max-width: 992) {
+    header {
+        background-color: cyan;
+    }
+}
